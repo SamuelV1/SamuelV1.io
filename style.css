@@ -1,0 +1,80 @@
+body{
+    background-image: url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    font: normal 15pt arial;
+}
+header{
+color: white;
+text-align: center;
+}
+section{
+    display: flex;
+    border-radius: 10px;
+    padding: 15px;
+    width: auto;
+    margin: auto;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+/*City Name*/
+.cidade{
+    display: flex;
+    justify-content: center;
+}
+/**/
+#pesquisa{
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    font-size: 1rem;
+}
+.pesquisador{
+    display: flex;
+    justify-content: center;
+}
+/*Divs & inside divs*/
+section div{
+ background-color: #424242;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 10px;
+
+}
+.clima{
+    font-size: 3em;
+    display: flex;
+    color: yellow;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px 0px 10px;
+}
+#nuvem{
+    color: blanchedalmond;
+}
+#chuva{
+    color: rgb(34, 193, 241);
+}
+.invisivel{
+    display: none;
+}
+.Celsius{
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    color: white;
+}
+.Celsius p {
+    display: flex;
+    font-size: 12px;
+}
+.vari{
+    flex-direction: column;
+    margin: 0px 10px 0px 10px;
+
+}
+/* footer*/
+
