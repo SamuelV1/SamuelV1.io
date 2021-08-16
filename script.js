@@ -15,7 +15,7 @@ cidade = 'recife'
 iniciar()
 
 function iniciar() {
-  fetch(`http://api.openweathermap.org/data/2.5/weather?q=${cidade}&units=metric&APPID=3c8d3fead51892c0f08921deb0391696`)
+  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cidade}&units=metric&APPID=3c8d3fead51892c0f08921deb0391696`, { mode: 'cors' })
     .then(function (response) {
       return response.json()
     })
