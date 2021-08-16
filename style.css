@@ -1,6 +1,12 @@
 body{
-    background-image: url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-    font: normal 15pt arial;
+    font-family: 'Roboto', sans-serif;
+    
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: repeat-y;
+
 }
 header{
 color: white;
@@ -27,20 +33,26 @@ section{
     outline: none;
     background: rgba(255, 255, 255, 0.2);
     color: #ffffff;
-    font-size: 1rem;
+    font-size: 3vh;
 }
-.pesquisador{
+#Formulario{
     display: flex;
     justify-content: center;
 }
 /*Divs & inside divs*/
-section div{
- background-color: #424242;
+#Painel-principal{
+ 
     display: flex;
     flex-direction: row;
     border-radius: 10px;
     width: fit-content;
     margin: 10px;
+    background: rgba( 219, 216, 216, 0.40 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 2.5px );
+-webkit-backdrop-filter: blur( 2.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 }
 .clima{

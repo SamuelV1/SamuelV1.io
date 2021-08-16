@@ -4,47 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather</title>
+    <title>weather</title>
     <link rel="stylesheet" href="style.css">
     <script defer src="fontawesome-free-5.15.3-web/js/all.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <h1 id="testando">Clima</h1>
-        <nav >
+        <h4>Pesquise uma cidade ai embaixo</h4>
+        <nav>
             <nav id="cidade"> Recife </nav>
-             <div class="pesquisador">
-           <nav id="pesquisar">
-                
-            <i class="fas fa-search" aria-hidden="true"></i>
-             </nav>  
-              
-            
-            <input id="pesquisa" type="text" placeholder="cidade" >
-            <br>
-          </div> </nav>
+            <div>
+                <form id="Formulario">
+                    <nav id="pesquisar">
+                        <i class="fas fa-search" aria-hidden="true"></i>
+                    </nav>
+                    <input id="pesquisa" type="text" placeholder="Insira uma cidade">
+                    <br>
+
+                </form>
+
+            </div>
+        </nav>
     </header>
     <section>
-        <div>
-            <div class="clima"> 
-                <span id="ensolarado">  <i class="fas fa-sun"></i>   </span>
-                <span id="nuvem">  <i class="fas fa-cloud-sun"></i></span>
-                <span id="chuva">  <i class="fas fa-cloud-rain"></i></i></span>
-                
-            
+        <div id="Painel-principal">
+            <div class="clima">
+                <span id="ensolarado"> <i class="fas fa-sun"></i> </span>
+                <span id="nuvem"> <i class="fas fa-cloud-sun"></i></span>
+                <span id="chuva"> <i class="fas fa-cloud-rain"></i></i></span>
+
+
             </div>
 
-            <div class="Celsius"> 
+            <div class="Celsius">
                 <h3 class="Celsius" id="celsius">37°C</h3>
-                <div class="vari">  
-                   <p id="sensação">sensação: 31% </p>
-                   <P id="umidade"> Umidade: 76% </P>  
-                   <p id="clima"> Vento: 16 km/h </p>
+                <div class="vari">
+                    <p id="sensação">sensação: 31% </p>
+                    <P id="umidade"> Umidade: 76% </P>
+                    <p id="clima"> Vento: 16 km/h </p>
                 </div>
-               </div> 
+            </div>
         </div>
-       
+
 
     </section>
 
